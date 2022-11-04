@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "WeatherCLI on Node.js",
   "main": "weather.js",
-  "bin": {"weather": "weather.js"},
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Darksiend/WeatherCLINodeJS/issues"
   },
-  "homepage": "https://github.com/Darksiend/WeatherCLINodeJS#readme"
+  "homepage": "https://github.com/Darksiend/WeatherCLINodeJS#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
 }
